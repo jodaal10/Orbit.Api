@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbitTest", "OrbitTest\OrbitTest.csproj", "{B64DD4F8-4D71-4926-BF40-AED1123A6BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{947F4202-750D-4DF9-8B9C-426F68BB6C98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access", "Data Access", "{4F687D13-CC05-4C11-99D7-7DDF58AF6DD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D143C3DC-66F1-4598-B6D6-F943F481492C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{0F6EEE18-7BA4-48F1-BC97-D1D968D98AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbit.DM", "Orbit.DM\Orbit.DM.csproj", "{11EDC7AC-0D9C-4ADE-87CE-02E1889C18C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbit.BM", "Orbit.BM\Orbit.BM.csproj", "{31927A72-3957-4854-8892-59752C80F33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbit.DT", "Orbit.DT\Orbit.DT.csproj", "{950C4B29-A27C-4482-A4D4-3D6BBD38274C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64DD4F8-4D71-4926-BF40-AED1123A6BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64DD4F8-4D71-4926-BF40-AED1123A6BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64DD4F8-4D71-4926-BF40-AED1123A6BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64DD4F8-4D71-4926-BF40-AED1123A6BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EDC7AC-0D9C-4ADE-87CE-02E1889C18C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EDC7AC-0D9C-4ADE-87CE-02E1889C18C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EDC7AC-0D9C-4ADE-87CE-02E1889C18C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EDC7AC-0D9C-4ADE-87CE-02E1889C18C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31927A72-3957-4854-8892-59752C80F33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31927A72-3957-4854-8892-59752C80F33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31927A72-3957-4854-8892-59752C80F33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31927A72-3957-4854-8892-59752C80F33F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950C4B29-A27C-4482-A4D4-3D6BBD38274C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950C4B29-A27C-4482-A4D4-3D6BBD38274C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950C4B29-A27C-4482-A4D4-3D6BBD38274C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950C4B29-A27C-4482-A4D4-3D6BBD38274C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B64DD4F8-4D71-4926-BF40-AED1123A6BD7} = {947F4202-750D-4DF9-8B9C-426F68BB6C98}
+		{11EDC7AC-0D9C-4ADE-87CE-02E1889C18C0} = {4F687D13-CC05-4C11-99D7-7DDF58AF6DD3}
+		{31927A72-3957-4854-8892-59752C80F33F} = {D143C3DC-66F1-4598-B6D6-F943F481492C}
+		{950C4B29-A27C-4482-A4D4-3D6BBD38274C} = {0F6EEE18-7BA4-48F1-BC97-D1D968D98AC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0A6D09A-4A34-45D4-8B57-4ED42DCC2AA0}
+	EndGlobalSection
+EndGlobal
